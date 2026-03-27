@@ -1,0 +1,11 @@
+# Python runtime dependencies for the FastAPI backend and 3D puzzle pipeline.
+# Keep this file focused on imports used by the shipped application code.
+
+fastapi>=0.110
+uvicorn[standard]>=0.29
+numpy>=1.26
+shapely>=2.0
+trimesh>=4.0
+requests>=2.31
+mapbox-earcut>=1.0.2
+manifold3d>=2.5
