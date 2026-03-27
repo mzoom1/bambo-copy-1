@@ -1,0 +1,33 @@
+# Python virtualenvs and caches
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node and frontend build artifacts
+node_modules/
+TopoPuzzle 3D/node_modules/
+TopoPuzzle 3D/dist/
+TopoPuzzle 3D/.vite/
+TopoPuzzle 3D/*.tsbuildinfo
+
+# Local tooling and OS metadata
+.claude/
+.playwright-cli/
+.DS_Store
+cache/
+*.log
+
+# Generated mesh / export artifacts
+*.3mf
+*.stl
+output_*.3mf
+output_*.stl
+debug_*.3mf
+debug_*.stl
+test_*.3mf
+test_*.stl
+terrain_from_3mf*.stl
